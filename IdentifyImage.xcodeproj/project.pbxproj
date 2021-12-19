@@ -20,6 +20,8 @@
 		7220616B276EB92C00A27652 /* ImageDetectManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7220616A276EB92C00A27652 /* ImageDetectManager.swift */; };
 		7220616C276EB92C00A27652 /* ImageDetectManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7220616A276EB92C00A27652 /* ImageDetectManager.swift */; };
 		7220616D276EB92C00A27652 /* ImageDetectManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7220616A276EB92C00A27652 /* ImageDetectManager.swift */; };
+		72FC4135276FF77D0069B463 /* Resnet50.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 72FC4134276FF77D0069B463 /* Resnet50.mlmodel */; };
+		72FC4137276FF84C0069B463 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FC4136276FF84C0069B463 /* UIImage+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +54,8 @@
 		72206159276EAA3000A27652 /* IdentifyImageUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdentifyImageUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		72206166276EB89D00A27652 /* ImageDetectVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDetectVM.swift; sourceTree = "<group>"; };
 		7220616A276EB92C00A27652 /* ImageDetectManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDetectManager.swift; sourceTree = "<group>"; };
+		72FC4134276FF77D0069B463 /* Resnet50.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Resnet50.mlmodel; sourceTree = "<group>"; };
+		72FC4136276FF84C0069B463 /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,10 +108,12 @@
 			children = (
 				7220613C276EAA2F00A27652 /* IdentifyImageApp.swift */,
 				7220613E276EAA2F00A27652 /* ContentView.swift */,
+				72FC4134276FF77D0069B463 /* Resnet50.mlmodel */,
 				72206140276EAA3000A27652 /* Assets.xcassets */,
 				72206142276EAA3000A27652 /* Preview Content */,
 				72206166276EB89D00A27652 /* ImageDetectVM.swift */,
 				7220616A276EB92C00A27652 /* ImageDetectManager.swift */,
+				72FC4136276FF84C0069B463 /* UIImage+Extension.swift */,
 			);
 			path = IdentifyImage;
 			sourceTree = "<group>";
@@ -267,8 +273,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72FC4135276FF77D0069B463 /* Resnet50.mlmodel in Sources */,
 				7220613F276EAA2F00A27652 /* ContentView.swift in Sources */,
 				7220613D276EAA2F00A27652 /* IdentifyImageApp.swift in Sources */,
+				72FC4137276FF84C0069B463 /* UIImage+Extension.swift in Sources */,
 				7220616B276EB92C00A27652 /* ImageDetectManager.swift in Sources */,
 				72206167276EB89D00A27652 /* ImageDetectVM.swift in Sources */,
 			);
