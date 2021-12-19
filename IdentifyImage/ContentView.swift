@@ -9,8 +9,11 @@ import SwiftUI
 
 struct ContentView: View {
     
+    //MARK: - PROPERTIES
     let images = ["tiger", "cat", "peacock", "nature"]
+    @State private var selectedImage = ""
     
+    //MARK: - BODY
     var body: some View {
         
         NavigationView {
@@ -22,6 +25,10 @@ struct ContentView: View {
                                 .resizable()
                                 .frame(width: 250, height: 250)
                                 .padding()
+                                .border(Color.red, width: (self.selectedImage == name) ? 10 : 0)
+                                .onTapGesture {
+                                    self.selectedImage = name
+                                }
                         }
                     }
                 }
@@ -30,9 +37,11 @@ struct ContentView: View {
                     
                 }
                 .padding()
-                    .cornerRadius(8)
                     .background(Color.blue)
                     .foregroundColor(Color.white)
+                    .cornerRadius(20)
+                Text("Catch Image")
+                    .padding()
             }
         }
         .navigationTitle("SwiftUI with CoreML")
