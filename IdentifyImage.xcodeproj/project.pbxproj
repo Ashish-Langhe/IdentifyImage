@@ -14,6 +14,12 @@
 		7220614E276EAA3000A27652 /* IdentifyImageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7220614D276EAA3000A27652 /* IdentifyImageTests.swift */; };
 		72206158276EAA3000A27652 /* IdentifyImageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72206157276EAA3000A27652 /* IdentifyImageUITests.swift */; };
 		7220615A276EAA3000A27652 /* IdentifyImageUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72206159276EAA3000A27652 /* IdentifyImageUITestsLaunchTests.swift */; };
+		72206167276EB89D00A27652 /* ImageDetectVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72206166276EB89D00A27652 /* ImageDetectVM.swift */; };
+		72206168276EB89D00A27652 /* ImageDetectVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72206166276EB89D00A27652 /* ImageDetectVM.swift */; };
+		72206169276EB89D00A27652 /* ImageDetectVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72206166276EB89D00A27652 /* ImageDetectVM.swift */; };
+		7220616B276EB92C00A27652 /* ImageDetectManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7220616A276EB92C00A27652 /* ImageDetectManager.swift */; };
+		7220616C276EB92C00A27652 /* ImageDetectManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7220616A276EB92C00A27652 /* ImageDetectManager.swift */; };
+		7220616D276EB92C00A27652 /* ImageDetectManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7220616A276EB92C00A27652 /* ImageDetectManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +50,8 @@
 		72206153276EAA3000A27652 /* IdentifyImageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IdentifyImageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		72206157276EAA3000A27652 /* IdentifyImageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdentifyImageUITests.swift; sourceTree = "<group>"; };
 		72206159276EAA3000A27652 /* IdentifyImageUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdentifyImageUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		72206166276EB89D00A27652 /* ImageDetectVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDetectVM.swift; sourceTree = "<group>"; };
+		7220616A276EB92C00A27652 /* ImageDetectManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDetectManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +106,8 @@
 				7220613E276EAA2F00A27652 /* ContentView.swift */,
 				72206140276EAA3000A27652 /* Assets.xcassets */,
 				72206142276EAA3000A27652 /* Preview Content */,
+				72206166276EB89D00A27652 /* ImageDetectVM.swift */,
+				7220616A276EB92C00A27652 /* ImageDetectManager.swift */,
 			);
 			path = IdentifyImage;
 			sourceTree = "<group>";
@@ -259,6 +269,8 @@
 			files = (
 				7220613F276EAA2F00A27652 /* ContentView.swift in Sources */,
 				7220613D276EAA2F00A27652 /* IdentifyImageApp.swift in Sources */,
+				7220616B276EB92C00A27652 /* ImageDetectManager.swift in Sources */,
+				72206167276EB89D00A27652 /* ImageDetectVM.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +278,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7220616C276EB92C00A27652 /* ImageDetectManager.swift in Sources */,
 				7220614E276EAA3000A27652 /* IdentifyImageTests.swift in Sources */,
+				72206168276EB89D00A27652 /* ImageDetectVM.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +290,8 @@
 			files = (
 				7220615A276EAA3000A27652 /* IdentifyImageUITestsLaunchTests.swift in Sources */,
 				72206158276EAA3000A27652 /* IdentifyImageUITests.swift in Sources */,
+				7220616D276EB92C00A27652 /* ImageDetectManager.swift in Sources */,
+				72206169276EB89D00A27652 /* ImageDetectVM.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
