@@ -13,11 +13,20 @@ struct ContentView: View {
     let images = ["tiger", "cat", "peacock", "nature"]
     @State private var selectedImage = ""
     
+    @ObservedObject private var imageDVM: ImageDetectVM
+    private var imageDM: ImageDetectManager
+    
+    init() {
+        self.imageDM = ImageDetectManager()
+        self.imageDVM = ImageDetectVM(manager: self.imageDM)
+    }
+    
     //MARK: - BODY
     var body: some View {
         
         NavigationView {
             VStack {
+                Text("SwiftUI CoreML")
                 ScrollView([.horizontal]) {
                     HStack {
                         ForEach(self.images, id:\.self) { name in
@@ -34,13 +43,13 @@ struct ContentView: View {
                 }
                 
                 Button("Catch") {
-                    
+                    self.imageDVM.detect(self.selectedImage)
                 }
                 .padding()
                     .background(Color.blue)
                     .foregroundColor(Color.white)
                     .cornerRadius(20)
-                Text("Catch Image")
+                Text(self.imageDVM.getDetect)
                     .padding()
             }
         }
