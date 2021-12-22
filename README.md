@@ -1,5 +1,9 @@
+
 # IdentifyImage
 A SwiftUI to demonstrate Image detection with advance cognitive iOS framework using CoreML 
+
+![IdentifyImages](https://user-images.githubusercontent.com/95478770/147023171-cce64f31-1ad2-4def-9cbe-2be265937849.png)
+
 
 ## CoreML Model (Machine Learning)
 
@@ -10,8 +14,7 @@ A SwiftUI to demonstrate Image detection with advance cognitive iOS framework us
 
      
      - Resnet50 (Image Classification): A Residual Neural Network that will classify the dominant object in a camera frame or image.
-
-
+   
 
 
 ### OutPut: 
@@ -20,3 +23,4 @@ A SwiftUI to demonstrate Image detection with advance cognitive iOS framework us
 | --- | --- |
 | ![IdentifyImage_00](https://user-images.githubusercontent.com/95478770/146697645-b8a85ee6-8b17-4348-a25c-04b7139129bd.png) | ![IdentifyImage_01](https://user-images.githubusercontent.com/95478770/146697649-c228daba-9a75-4d0f-a2e1-fd098b92f92a.png)|
 |
+
